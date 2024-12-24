@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover{
+    color: rgb(87, 87, 238);
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Rubic', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: rgb(87, 87, 238);
+}
+.container{
+    margin-right: 10px;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(87, 87, 238);
+    margin-left: 0px;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(87, 87, 238);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.left {
+    position: absolute;
+    top: 400px;
+    left: 16px;
+  }
+span{
+    color: rgb(87, 87, 238);
+}
+h2{
+    font-family: 'Snell Roundhand', cursive;
+    font-size: 4rem;
+    margin-right: 500px;
+    margin-left: 10px;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+/*About me */
+h3{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    font-size: 3rem;
+}
+h5{
+    text-align: center;
+}
+.about {
+    padding: 20px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between cards */
+    gap: 20px; /* Adds space between cards */
+    flex-wrap: wrap; /* Wraps cards to the next line if needed */
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 20px); /* Adjusts the width of each card */
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%; /* Ensures images fit within the card */
+    height: auto; /* Maintains aspect ratio of images */
+}
+
+.card-body {
+    padding: 10px;
+}
+
+
+h1{
+    font-weight: 700;
+}
+
+
+.about{
+    background-image: url('back22.jpg');
+}
+.about h3{
+    margin-top: 100px;
+}
+.portfolio{
+  
+    padding: 20px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;     /* Center items vertically */
+    height: 1vh;           /* Full height of the viewport */
+    gap: 10px;               /* Space between icons */
+}
+
+.fab {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.download-btn:hover {
+    background-color: #0056b3;
+}
+.container1 {
+    background-image: url('serviceback.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Ensure the image covers the container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white; /* Ensure text is white for readability */
+    padding-left: 150px; /* Add padding for spacing */
+    border-radius: 15px; /* Optional: add border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add a shadow for better readability */
+}
+.container2 {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header .highlight {
+    color: #6A5ACD;
+}
+
+header p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #16213E;
+    border: 1px solid #197bf2;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.service-card .icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.service-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1rem;
+}
+.services h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.portfolio-card {
+    background-color: #2a54c9;
+    border: 1px solid #58a7f5;
+    border-radius: 10px;
+    padding: 20px;
+    width: 480px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-card .icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.portfolio-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.portfolio-card p {
+    font-size: 1rem;
+}
+
+.portfolio h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container3 {
+    text-align: center;
+    padding: 20px;
+}
+.footer p{
+    color: white;
+}
