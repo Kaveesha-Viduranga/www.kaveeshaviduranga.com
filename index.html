@@ -99,7 +99,8 @@
       <section id="portfolio">
         <div class="container3">
         <header>
-          <h1>Portfolio</h1><br><br><br>
+          <h1>Portfolio</h1>
+            <center><a href="https://portfolio-projects-red.vercel.app/" class="download-btn">View My Projects</a></center>
           
       </header>
         <div class="services">
@@ -154,7 +155,10 @@
       </section><br><br><br>
       
       <section id="footer">
-        <p>Kaveesha Viduranga Copyright© 2025.</p>
+        <p>Kaveesha Viduranga Copyright © <span id="year"></span></p>
+        <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
       </section>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       
